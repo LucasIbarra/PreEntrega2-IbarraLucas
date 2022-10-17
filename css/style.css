@@ -554,15 +554,14 @@ footer div a img {
     .hero div h2 {
         font-size: 100px;
     }
-    header nav ul li:hover {
-        display: none;
-    }
+    li:hover {
+        background-color: inherit;}
     
-    header nav ul li a:hover {
-        display: none;
-    }
-    .grid-galeria div img:hover {
-        display: none;
+
+    a:hover { color: inherit; }
+    
+    img:hover {
+        scale:inherit
     }
 
 }
