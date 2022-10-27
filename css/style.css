@@ -510,8 +510,8 @@ footer div a img {
 
 .fondo-sobre h2 {
     font-size: 100px;
+    color: black;
     text-shadow: white 2px 5px;
-
 }
 
 
@@ -720,12 +720,6 @@ footer div a img {
         margin-top: 20px;
     }
 
-    .tatuadores img {
-        width: 350px;
-        height: 350px;
-        margin-top: 15px;
-    }
-
     .fondo-sobre {
         height: 450px;
     }
@@ -887,11 +881,6 @@ footer div a img {
         width: 250px;
     }
 
-    .tatuadores img {
-        width: 250px;
-        height: 250px;
-        margin-top: 10px;
-    }
     .fondo-mat{
         height: 300px;
     }
