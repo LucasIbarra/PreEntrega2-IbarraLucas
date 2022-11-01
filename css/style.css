@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Ms+Madi&display=swap');
+/**@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Ms+Madi&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +8,7 @@
 
 /**---- header-----*/
 
-
+/**
 header {
     display: flex;
     justify-content: space-between;
@@ -62,7 +62,7 @@ header nav ul li a:hover {
 
 /**-----main------*/
 
-/**hero*/
+/**hero
 
 
 .hero {
@@ -102,7 +102,6 @@ header nav ul li a:hover {
 .fondo div p {
     text-align: center;
     text-transform: uppercase;
-    border: dashed 2px;
     height: 200px;
     width: 600px;
     padding: 10px;
@@ -114,7 +113,7 @@ header nav ul li a:hover {
 }
 
 
-/**diseños*/
+/**diseños
 
 
 
@@ -153,7 +152,7 @@ header nav ul li a:hover {
 }
 
 
-/**sticky**/
+/**sticky*
 
 
 
@@ -202,7 +201,7 @@ header nav ul li a:hover {
 
 
 
-/**-------footer-------*/
+/**-------footer-------
 
 
 
@@ -229,7 +228,7 @@ footer div a img {
     width: 50px;
 }
 
-/** galeria grid **/
+/** galeria grid *
 
 .grid-galeria {
     width: 100%;
@@ -263,8 +262,7 @@ footer div a img {
     grid-row: span 2;
 }
 
-/**pestana-materiales**/
-
+/**pestana-materiales**
 .container {
     width: 100%;
     display: grid;
@@ -347,7 +345,7 @@ footer div a img {
     text-shadow: white 2px 5px;
 }
 
-/** pestana-preguntas frecuentes**/
+/** pestana-preguntas frecuentes**
 
 
 .grid-quienes {
@@ -444,8 +442,7 @@ footer div a img {
 }
 
 
-/**pestana-Sobre Nosotros*/
-
+/**pestana-Sobre Nosotros*
 
 .grid-sobre {
     display: grid;
@@ -517,7 +514,7 @@ footer div a img {
 
 
 
-/** medias quaries **/
+/** medias quaries **
 
 @media screen and (max-width:1540px) {
     .sticky {

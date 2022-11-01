@@ -1,0 +1,47 @@
+
+
+/** HEADER  **/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-principal;
+    position: sticky;
+    top: 0;
+    grid-area: header;
+    img {
+        height: 120px;
+        width: 120px;
+    }
+    h1 {
+        color: white;
+        font-size: 48px;
+        font-weight: 300px;
+        font-family: 'Great Vibes', cursive;
+    }
+    nav{
+        ul {
+            list-style: none;
+            display: flex;
+            li {
+                transition: 1.2s;
+                padding: 5px;
+                border-radius: 20px;
+                &:hover {
+                    background-color: #D5F7F1;
+                }
+                a {
+                    text-decoration: none;
+                    color: white;
+                    text-transform: uppercase;
+                    font-size: 20px;
+                    margin: 20px;
+                    transition: 0.5s;
+                    &:hover {
+                        color: black;
+                    }
+                }
+            }
+        }
+}}

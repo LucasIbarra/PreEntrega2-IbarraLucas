@@ -1,0 +1,413 @@
+/** medias quaries **/
+@media screen and (max-width:1540px) {
+    .sticky {
+        display: none;
+    }
+
+    .disenios .disenios-img div {
+        margin: 10px;
+        border: solid 2px black;
+        width: 300px;
+    }
+
+
+    .disenios .disenios-img div img {
+        width: 300px;
+        height: 300px;
+        border: solid 1px;
+        border-radius: 10px;
+
+    }
+    .container .maquinas div {
+        margin: 15px;
+    }
+    .container .agujas div{
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:1290px) {
+    .fondo div p {
+        height: 200px;
+        width: 500px;
+        padding: 10px;
+    }
+
+    main .fondo div img {
+        width: 400px;
+        height: 300px;
+    }
+    main .hero div h1 {
+        font-size: 100px;
+    }
+    li:hover {
+        background-color: inherit;}
+    
+
+    a:hover { color: inherit; }
+    
+    img:hover {
+        scale:inherit
+    }
+
+}
+
+@media screen and (max-width:1050px) {
+
+    .grid-galeria {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 300px;
+    }
+
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .img-5 {
+        grid-row: span 2;
+    }
+
+    .img-7 {
+        grid-row: span 2;
+    }
+
+    .img-8 {
+        grid-row: span 2;
+    }
+
+    .img-2 {
+        grid-row: span 2;
+    }
+
+    .img-4 {
+        grid-row: span 2;
+    }
+
+    .grid-sobre .tatuadores .tatuador div {
+        width: 350px;
+    }
+
+    .grid-sobre .tatuadores .tatuadora div {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    .grid-galeria {
+        grid-template-columns: 1fr;
+        grid-template-rows: 450px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-1 {
+        grid-row: span 2;
+    }
+
+    .img-2 {
+        grid-row: span 2;
+    }
+
+    .img-3 {
+        grid-row: span 2;
+    }
+
+    .img-4 {
+        grid-row: span 2;
+    }
+
+    .img-5 {
+        grid-row: span 4;
+    }
+
+    .img-7 {
+        grid-row: span 3;
+    }
+
+    .img-9 {
+        grid-row: span 2;
+    }
+
+    .img-12 {
+        grid-row: span 2;
+    }
+
+    .img-13 {
+        grid-row: span 2;
+    }
+
+    .grid-quienes .cuidados {
+        height: 550px;
+    }
+
+    .disenios-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fondo div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .hero div h1 {
+        font-size: 80px;
+    }
+
+    main .hero {
+        height: 500px;
+    }
+
+    .ubi div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .fondo div p {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:920px) {
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        margin: 1px;
+
+    }
+
+    .grid-galeria {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-quienes .cuidados {
+        height: 450px;
+    }
+
+    .grid-quienes .pregunta1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .grid-quienes .pregunta2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .grid-sobre .fondo-sobre {
+        height: 450px;
+    }
+
+    .grid-sobre {
+        grid-template-rows: auto 450px 1fr auto;
+    }
+    .grid-sobre .tatuadores .tatuador div{
+        width: 350px;
+    }
+    .grid-sobre .tatuadores .tatuadora div{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .tatuador {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tatuadora {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-sobre .fondo-sobre h2 {
+        font-size: 50px;
+    }
+
+    .grid-sobre {
+        grid-template-rows: auto 350px 1fr auto;
+    }
+
+    .grid-sobre .fondo-sobre {
+        height: 350px;
+    }
+
+    .grid-sobre .tatuadores img {
+        width: 300px;
+        height: 300px;
+        margin-top: 10px;
+    }
+
+    .disenios .disenios-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    main .hero {
+        height: 400px;
+    }
+    main .hero div h1 {
+        font-size: 60px;
+    }
+
+    main .fondo div p {
+        margin-bottom: 20px;
+        width: 300px;
+        height: 300px;
+        font-size: 15px;
+    }
+
+    .ubi div iframe {
+        width: 300px;
+        height: 300px;
+    }
+    .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr 1fr 1fr 1fr auto;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "header header"
+            "fondo-mat fondo-mat"
+            "maquinas maquinas"
+            "agujas agujas"
+            "tintas tintas"
+            "footer footer";
+    }
+    .container .fondo-mat{
+        height: 400px;
+    }
+    .container .fondo-mat div h2{
+        font-size: 60px;
+    }
+    .container .tintas img{
+        height: 300px;
+        width: 300px;
+    }
+    .container .tintas div {
+        margin: 30px;
+    }
+    .container .maquinas img{
+        height: 300px;
+        width: 300px;
+    }
+    .container .agujas img{
+        height: 300px;
+        width: 300px;
+    }
+
+    .maquinas{
+        display: flex;
+        flex-direction: column;
+    }
+    .agujas{
+        display: flex;
+        flex-direction: column;
+    }
+    .tintas{
+        display: flex;
+        flex-direction: column;
+    }
+    .container .tintas div{
+        width: 300px;
+    }
+}
+
+
+
+@media screen and (max-width:420px) {
+    .grid-quienes .pregunta1 div {
+        width: 300px;
+    }
+
+    .grid-quienes .pregunta1 div img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .grid-quienes .pregunta2 div {
+        width: 300px;
+    }
+
+    .grid-quienes .pregunta2 img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .grid-quienes .cuidados {
+        height: 300px;
+    }
+
+    .grid-quienes .cuidados h2 {
+        font-size: 50px;
+        text-shadow: white 2px 5px;
+    }
+
+    .grid-sobre {
+        grid-template-rows: auto 250px 1fr auto;
+    }
+
+    .grid-sobre .fondo-sobre {
+        height: 250px;
+    }
+
+    .grid-sobre .tatuadores .tatuador div {
+        width: 250px;
+    }
+
+    .grid-sobre .tatuadores .tatuadora div {
+        width: 250px;
+    }
+
+    .container .fondo-mat{
+        height: 300px;
+    }
+    .container .fondo-mat div h2{
+        font-size: 40px;
+    }
+    main .fondo div img {
+        width: 300px;
+        height: 300px;
+    }
+    
+    main .fondo div p {
+        margin-bottom: 15px;
+        width: 250px;
+        height: 200px;
+        font-size: 10px;
+    }
+    
+    .ubi div iframe {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .ubi div h3 {
+        font-size: 20px;
+    }
+    
+    main .hero {
+        height: 300px;
+    }
+    
+    main .hero div h1 {
+        font-size: 30px;
+    }
+}
+
